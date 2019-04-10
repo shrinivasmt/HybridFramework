@@ -1,0 +1,37 @@
+# Home Page Objects
+
+btn_Invoice=//*[@id='main-navbar']/div[1]/div[2]/ul[1]/li[5]/a[contains(.,'Invoices')]
+btn_LogOut=//div[@class='collapse navbar-collapse']/ul[2]/li/a
+btn_LogOut1=//div[@class='collapse navbar-collapse']/ul[2]/li/ul/li[4]/a[contains(.,'Logout')]
+txt_welcomePage=//div[@class='welcome-message']/h1
+Form_Menu=//*[@id='mainmenubar_formsMenu']
+Search=//*
+
+
+
+ 
+# Login Page Object
+txtbx_SerURL=//*[@name='server']
+txtbx_UserName=//*[@name='username']
+txtbx_Password=//*[@name='password']
+btn_Continue=//button[@class='btn btn-primary btn-block' and contains(.,'Continue')]
+btn_Login=//button[@class='btn btn-primary btn-block' and contains(.,'Log in')]
+txt_AlertMsg=//*[@id="toast-container"]/div[1]/div[1]
+lnk_SalesPickList=
+txtbx_Email=//piq-auth-forgot-password-dialog[@class='ng-star-inserted']/mat-dialog-content[@class='mat-dialog-content']/div[@class='plateiq-form-group form-group']/input[@name='email']
+btn_Send=//*[@type="search"]
+
+
+
+# Invoice Page
+sel_Invoice=//div[@class='invoice-list']/table/tbody/tr//div[@class='pull-left title']/span
+btn_More=//*[@id='dropdownMenu2' and contains(., 'More')]
+sel_MarkAsExported=.//*[@id='dropdownMenu2' and contains(., 'More')]/following-sibling::ul/li/a[contains(.,'Mark as Exported')]
+tab_PenExport=//*[@id='tab-item-18']/ng-switch[1]/span[1]
+tab_NeedAttention=//*[@id='tab-item-17']/ng-switch[1]/span[1]
+tab_OthrDoc=//*[@id='tab-item-19']/ng-switch[1]/span[1]
+tab_alldoc=//*[@id='tab-item-20']/ng-switch[1]/span[1]
+sel_Invoice1=//div[@class='invoice-list']/table/tbody/tr//div[@class='pull-left title']/span
+sel_MarkAsNtExported=.//*[@id='dropdownMenu2' and contains(., 'More')]/following-sibling::ul/li/a[contains(.,'Mark as not Exported')]
+Txt_Exported=//*[@id='invoice-header']/div[1]/section[1]/span[1]
+btn_clswindow=//div[@class='banner-message']/span[@class='modal-close-x']

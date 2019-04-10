@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25797" started-at="2019-04-09T06:40:47Z" finished-at="2019-04-09T06:41:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25797" started-at="2019-04-09T06:40:47Z" finished-at="2019-04-09T06:41:13Z">
+      <class name="com.org.executionengine.MainScript">
+        <test-method status="PASS" signature="demo()[pri:0, instance:com.org.executionengine.MainScript@6fffcba5]" name="demo" duration-ms="25786" started-at="2019-04-09T12:10:47Z" finished-at="2019-04-09T12:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- com.org.executionengine.MainScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
